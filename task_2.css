@@ -1,0 +1,159 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl,
+dt, dd, ul,li,pre, fieldset, lengend, button, 
+input, textarea, th, td { 
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color: rgb(222, 222, 222);
+}
+nav{
+	width: 100%;
+	height: 66px;
+	background-color: rgb(51, 51, 51);
+}
+.imge{
+	width:100px;
+	height:66px;
+	overflow:hidden;
+	display: inline-block;
+	float: left;
+	margin: 0 50px;
+}
+.imgee{
+	transform:scale(0.3);/*用zoom缩放后直接在左上角，但渲染过程不同，可能会影响盒子模型*/
+	-ms-transform:scale(0.3);
+	-webkit-transform:scale(0.3);
+	-o-transform:scale(0.3);
+	-moz-transform:scale(0.3);
+	-webkit-transform-origin:top left;
+}
+nav ul{
+	float: right;
+	width: 500px;
+	height: 66px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 66px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+/*nav ul li a:nth-child(4){
+	color: #ccc;
+}*/
+.lasta{
+	color: #ccc;
+}
+article{
+	background-color: white;
+	box-shadow: 5px 5px 1px #ccc;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px;
+}
+.article2 li{list-style: none;}
+section{
+	background-color: white;
+	box-shadow: 5px 5px 1px #ccc;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px;
+}
+aside{
+	background-color: white;
+	box-shadow: 5px 5px 1px #ccc;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px;
+}
+h3{
+	color: #ccc;
+	margin: 7px 0;
+}
+span{
+	display: inline-block;
+	font-size: 13px;
+	color: #ccc;
+	padding: 6px 0px;
+}
+p{
+	line-height: 20px;
+	text-indent: 2em;
+}
+.article img{
+	display: block;
+	margin: 20px 0px;
+}
+time{
+	font-size: 13px;
+	color: #ccc;
+}
+figure{
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	border:1px solid;
+	margin: 20px 0px;
+}
+figcaption{
+	padding: 3px 0px;
+	text-align:center;
+}
+figure img{
+	display: block;
+	margin: 0 auto;
+}
+table{
+	width: 100%;
+}
+thead{
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+tfoot{
+	background-color: #ccc;
+}
+
+aside h2{
+	border-left: 4px solid #ccc;
+	padding:7px 15px;
+	
+}
+aside p{
+	padding: 5px;
+	display: block;
+	width: 510px;
+	margin: 0 auto;
+}
+aside p label{
+	display: inline-block;
+	width: 170px;
+	text-align: right;
+}
+.note{
+	color: #ccc;
+	text-align: center;
+}
+button{
+	width: 100%;
+	height: 40px;
+	background-color: rgb(51, 85, 208);
+	border-radius: 5px;
+	color: white;
+}
+footer{
+	width: 100%;
+	height: 70px;
+	background-color: rgb(66, 66, 64);
+}
+
+
